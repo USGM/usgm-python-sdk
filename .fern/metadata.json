@@ -1,0 +1,10 @@
+{
+  "cliVersion": "5.68.0",
+  "generatorName": "fernapi/fern-python-sdk",
+  "generatorVersion": "4.64.1",
+  "generatorConfig": {
+    "client_class_name": "Usgm",
+    "package_name": "usgm"
+  },
+  "originGitCommit": "5da07ad0c10a1f1aeb2667c60bd8a4df04f370d5"
+}
