@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "usgm"
+version = "1.0.0"
+description = "Official Python SDK for the USGM Public API"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = [
+    "httpx>=0.21.2",
+    "pydantic>=1.9.2",
+    "typing_extensions>=4.0.0"
+]
+
+[project.urls]
+Repository = "https://github.com/USGM/usgm-python-sdk"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["usgm*"]
