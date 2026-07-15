@@ -32,7 +32,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.mails.list()
@@ -175,7 +175,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.mails.get(
@@ -248,7 +248,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.mails.update(
@@ -337,7 +337,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.mails.archive(
@@ -410,7 +410,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.mails.unarchive(
@@ -483,7 +483,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.mails.discard(
@@ -556,7 +556,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.mails.undiscard(
@@ -630,7 +630,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.scans.list()
@@ -757,7 +757,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.scans.create(
@@ -855,7 +855,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.scans.get(
@@ -928,7 +928,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.scans.delete(
@@ -1001,7 +1001,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.scans.file(
@@ -1074,7 +1074,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.scans.summary(
@@ -1147,7 +1147,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.scans.cancel(
@@ -1221,7 +1221,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.shipments.list()
@@ -1316,7 +1316,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.shipments.get(
@@ -1390,7 +1390,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.folders.list()
@@ -1453,7 +1453,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.folders.create(
@@ -1534,7 +1534,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.folders.get(
@@ -1607,7 +1607,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.folders.delete(
@@ -1680,7 +1680,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.folders.update(
@@ -1770,7 +1770,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.addresses.list()
@@ -1857,7 +1857,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.addresses.create(
@@ -2017,7 +2017,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.addresses.getdefault(
@@ -2090,7 +2090,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.addresses.get(
@@ -2163,7 +2163,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.addresses.delete(
@@ -2236,7 +2236,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.addresses.update(
@@ -2397,7 +2397,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.addresses.setdefault(
@@ -2471,7 +2471,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.bank_accounts.bank_accounts_list()
@@ -2550,7 +2550,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.bank_accounts.bank_accounts_create(
@@ -2641,7 +2641,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.bank_accounts.bank_accounts_get(
@@ -2714,7 +2714,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.bank_accounts.bank_accounts_delete(
@@ -2787,7 +2787,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.bank_accounts.bank_accounts_update(
@@ -2885,7 +2885,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.account.get()
@@ -2948,7 +2948,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.account.mailingaddress()
@@ -3012,7 +3012,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.sandbox.seed()
@@ -3075,7 +3075,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.sandbox.seedmail()
@@ -3170,7 +3170,7 @@ from usgm.environment import UsgmEnvironment
 
 client = Usgm(
     token="<token>",
-    environment=UsgmEnvironment.DEFAULT,
+    environment=UsgmEnvironment.PRODUCTION,
 )
 
 client.sandbox.completescan(

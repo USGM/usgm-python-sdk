@@ -4,4 +4,5 @@ import enum
 
 
 class UsgmEnvironment(enum.Enum):
-    DEFAULT = "https://api.usglobalmail.com"
+    PRODUCTION = "https://api.usglobalmail.com"
+    SANDBOX = "https://api-sandbox.usglobalmail.com"

@@ -34,7 +34,7 @@ class Usgm:
 
 
 
-        Defaults to UsgmEnvironment.DEFAULT
+        Defaults to UsgmEnvironment.PRODUCTION
 
 
 
@@ -67,7 +67,7 @@ class Usgm:
         self,
         *,
         base_url: typing.Optional[str] = None,
-        environment: UsgmEnvironment = UsgmEnvironment.DEFAULT,
+        environment: UsgmEnvironment = UsgmEnvironment.PRODUCTION,
         token: typing.Union[str, typing.Callable[[], str]],
         headers: typing.Optional[typing.Dict[str, str]] = None,
         timeout: typing.Optional[float] = None,
@@ -178,7 +178,7 @@ class AsyncUsgm:
 
 
 
-        Defaults to UsgmEnvironment.DEFAULT
+        Defaults to UsgmEnvironment.PRODUCTION
 
 
 
@@ -211,7 +211,7 @@ class AsyncUsgm:
         self,
         *,
         base_url: typing.Optional[str] = None,
-        environment: UsgmEnvironment = UsgmEnvironment.DEFAULT,
+        environment: UsgmEnvironment = UsgmEnvironment.PRODUCTION,
         token: typing.Union[str, typing.Callable[[], str]],
         headers: typing.Optional[typing.Dict[str, str]] = None,
         timeout: typing.Optional[float] = None,
