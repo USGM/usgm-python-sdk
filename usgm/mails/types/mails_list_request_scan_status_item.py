@@ -3,6 +3,5 @@
 import typing
 
 MailsListRequestScanStatusItem = typing.Union[
-    typing.Literal["submitted", "in_process", "cancelled", "rejected", "completed", "deleted", "restoring", "none"],
-    typing.Any,
+    typing.Literal["in_process", "cancelled", "rejected", "completed", "deleted", "restoring", "none"], typing.Any
 ]

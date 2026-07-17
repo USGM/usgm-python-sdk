@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "usgm"
-version = "1.0.3"
-description = "Official Python SDK for the USGM Public API"
+version = "1.0.4"
+description = "Official Python SDK for the USGM API"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }

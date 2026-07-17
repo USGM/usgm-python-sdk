@@ -25,7 +25,7 @@ class ScanPageDtoDataItem(UniversalBaseModel):
 
     status: str = pydantic.Field()
     """
-    `SUBMITTED`, `IN_PROCESS`, `COMPLETED`, `CANCELLED`, `REJECTED`, `DELETED` or `RESTORING`.
+    `IN_PROCESS`, `COMPLETED`, `CANCELLED`, `REJECTED`, `DELETED` or `RESTORING`.
     """
 
     is_expedited: bool

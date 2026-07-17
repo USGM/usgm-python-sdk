@@ -3,5 +3,5 @@
 import typing
 
 ScansListRequestStatusItem = typing.Union[
-    typing.Literal["submitted", "in_process", "cancelled", "rejected", "completed", "deleted", "restoring"], typing.Any
+    typing.Literal["in_process", "cancelled", "rejected", "completed", "deleted", "restoring"], typing.Any
 ]

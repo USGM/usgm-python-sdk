@@ -16,7 +16,7 @@ class MailDetailDtoScan(UniversalBaseModel):
     ]
     status: str = pydantic.Field()
     """
-    `SUBMITTED`, `IN_PROCESS`, `COMPLETED`, `CANCELLED`, `REJECTED`, `DELETED` or `RESTORING`.
+    `IN_PROCESS`, `COMPLETED`, `CANCELLED`, `REJECTED`, `DELETED` or `RESTORING`.
     """
 
     category: str = pydantic.Field()

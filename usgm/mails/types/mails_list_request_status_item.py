@@ -2,4 +2,6 @@
 
 import typing
 
-MailsListRequestStatusItem = typing.Union[typing.Literal["inbox", "archived", "quarantine"], typing.Any]
+MailsListRequestStatusItem = typing.Union[
+    typing.Literal["inbox", "archived", "quarantine", "discard_request"], typing.Any
+]
